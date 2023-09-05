@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="py-9 px-4 " x-data="{navOpen : true}">
+    <nav class="py-9 px-5 md:hidden sm:hidden"  x-data="{navOpen : true}">
         <div class="contaier mx-auto">
             <div class="flex items-center justify-between ">
                 <img src="../public/asset/logo.png" alt="" class="order-1 sm:order-2">
@@ -120,23 +120,95 @@
                     </div>
                 </div>
             </div>
-            <div class="container mx-auto mt-8 border-t-2">
-                <div class="flex gap-1">
-                    <div class="w-full flex items-center justify-center">
-                        <img src="../public/asset/grandmadani.png" alt="" >
-                    </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img src="../public/asset/kampusmerdeka.png" alt="" >
-                    </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img src="../public/asset/unram.png" alt="">
-                    </div>
-                    <div class="w-full flex items-center justify-center">
-                        <img src="../public/asset/kedaireka.png" alt="">
-                    </div>      
+            <!-- Logo -->
+            <div class="grid grid-cols-2 md:grid-cols-4 py-8">
+                <div class="mb-4 md:mb-0 flex justify-center items-center">
+                    <img src="../public/asset/grandmadani.png" alt="Gambar 1" class="w-1/4 rounded-md">
+                </div>
+                <div class="mb-4 md:mb-0 flex justify-center items-center">
+                    <img src="../public/asset/kampusmerdeka.png" alt="Gambar 2" class="w-1/4 rounded-md">
+                </div>
+                <div class="mb-4 md:mb-0 flex justify-center items-center">
+                    <img src="../public/asset/unram.png" alt="Gambar 3" class="w-1/4 rounded-md">
+                </div>
+                <div class="mb-4 md:mb-0 flex justify-center items-center">
+                    <img src="../public/asset/kedaireka.png" alt="Gambar 4" class="w-1/4 rounded-md">
                 </div>
             </div>
-            <br>
+            <!-- Destination -->
+            <div class="grid grid-cols-12 gap-4 py-[74px] place-items-center">
+                <div class="col-span-12 py-[20px]">
+                    <h2 class="font-bold text-pink mb-[16px] text-center"> Top Destination </h2>
+                    <h1 class=""> Explore of Destination</h1>
+                </div>
+                <div class="flex md:flex-row lg:flex-row gap-3 flex-col col-span-full w-[75%] md:w-[100%]">
+                    <div class=" bg-white rounded-b-2xl">
+                        <div class="rounded-full">
+                            <img src="../public/asset/beruk.png" alt="" class="h-[330px] w-full rounded-t-xl">
+                            <div class="py-8 px-8">
+                                <h2>Paradise Beach</h2>
+                                <span>Rp.300k</span>
+                            </div>
+                            <div class="pb-8 px-8">
+                                <span>48</span>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-4 bg-white rounded-b-2xl ">
+                        <div class="rounded-full">
+                            <img src="../public/asset/tulipnew.png" alt="" class="h-[330px] w-full rounded-t-xl">
+                            <div class="py-8 px-8">
+                                <h2>Paradise Beach</h2>
+                                <span>Rp.300k</span>
+                            </div>
+                            <div class="pb-8 px-8">
+                                <span>48</span>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-4 bg-white rounded-b-2xl">
+                        <div class="rounded-full">
+                            <img src="../public/asset/pink.png" alt="" class="h-[330px] w-full rounded-t-xl">
+                            <div class="py-8 px-8">
+                                <h2>Paradise Beach</h2>
+                                <span>Rp.300k</span>
+                            </div>
+                            <div class="pb-8 px-8">
+                                <span>48</span>
+                                <ion-icon name="star"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact -->
+            <div class="space-y-10 md:space-y-auto md:grid grid-cols-12 place-content-cente place-self-center">
+                <div class="col-span-6">
+                    <img src="../public/asset/logo.png" alt="" class="pb-2">
+                    <p class="pt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nihil!</p>
+                    <div class="py-1">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </div>
+                </div>
+                <div class="col-span-6 flex">
+                    <div>
+                        <h1>Comppany</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eos.</p>
+                    </div>
+                    <div>
+                        <h1>Contact</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, molestias.</p>
+                    </div>
+                    <div>
+                        <h1>Meet us</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, repudiandae.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

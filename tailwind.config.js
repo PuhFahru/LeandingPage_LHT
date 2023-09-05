@@ -29,6 +29,11 @@ module.exports = {
           '0px 45px 27px 0px rgba(0, 0, 0, 0.05)', 
           '0px 81px 32px 0px rgba(0, 0, 0, 0.01)', 
           '0px 126px 35px 0px rgba(0, 0, 0, 0.00)'
+        ],
+        "style-shdw" : [
+          '4px -5px 13px -5px rgba(0,0,0,0.75)',
+          '4px -5px 13px -5px rgba(0,0,0,0.75)',
+          '4px -5px 13px -5px rgba(0,0,0,0.75)'
         ]
       }
     },
